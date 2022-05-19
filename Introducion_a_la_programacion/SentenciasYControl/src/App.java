@@ -1,5 +1,6 @@
-/*
-*Ejercios de sentencias y control
+package Introducion_a_la_programacion.SentenciasYControl.src;
+
+/**Ejercios de sentencias y control
 
 En este ejercicio practicarás las estructuras de control, para ello deberás crear:
 
