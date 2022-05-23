@@ -1,5 +1,4 @@
-package Introducion_a_la_programacion.herencia;
-
+package herencia;
 /* --------------------------------
 Crea una clase Persona con las siguientes variables:
 

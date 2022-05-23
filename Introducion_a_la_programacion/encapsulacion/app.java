@@ -1,4 +1,4 @@
-package Introducion_a_la_programacion.encapsulacion;
+package encapsulacion;
 /*
 *Para practicar la encapsulación:
 

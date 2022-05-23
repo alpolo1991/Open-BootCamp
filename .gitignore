@@ -1,3 +1,4 @@
 # Se ignora los compilados
 *.class
 .vscode
+bin/
