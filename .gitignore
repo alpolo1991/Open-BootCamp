@@ -1,4 +1,7 @@
 # Se ignora los compilados
-*.class
-.vscode
 bin/
+*.class
+# Ignora la carpeta vscode
+.vscode
+# Ignora la carpeta de venv Python
+venv/
