@@ -22,6 +22,7 @@ email = "jperez@gmail.com"
 phone = "123456789"
 married = True
 has_children = False
+friends = ["Pedro", "Mario", "Maria", "John", "Rosa"]
 peliculas_vistas = {"Batman": "Batman Begins", "Superman": "Superman Returns", "Spiderman": "Spiderman", "Ironman": "Ironman"}
 
 print("Nombre Completo: " + name + " " + last_name)
@@ -30,4 +31,5 @@ print("Email: " + email)
 print(f"Telefono: {phone}")
 print("EsCasado: ", married)
 print(f"Tines Hijos: {has_children}")
+print("Lista de Amigos: " + str(friends))
 print(f"Peliculas Vistas: {peliculas_vistas}")
