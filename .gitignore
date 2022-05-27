@@ -2,6 +2,6 @@
 bin/
 *.class
 # Ignora la carpeta vscode
-.vscode
+# .vscode
 # Ignora la carpeta de venv Python
 venv/
