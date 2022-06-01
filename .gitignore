@@ -5,3 +5,5 @@ bin/
 # .vscode
 # Ignora la carpeta de venv Python
 venv/
+
+__pycache__
