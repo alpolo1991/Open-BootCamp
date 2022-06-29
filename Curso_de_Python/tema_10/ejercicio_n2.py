@@ -15,8 +15,6 @@ class Window(object):
         self.windows.title("Lista Check Button")
         self.windows.geometry("300x200")
         self.windows.config(bg="blue")
-        self.selec = None
-        self.monitor = None
 
     def listbox_test(self):
         selec = tk.StringVar()
