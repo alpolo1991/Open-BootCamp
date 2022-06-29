@@ -13,8 +13,24 @@ class Window(object):
     def __init__(self):
         self.windows = Tk()
         self.windows.title("Lista Check Button")
-        self.windows.geometry("500x400")
+        self.windows.geometry("300x200")
         self.windows.config(bg="blue")
+        self.selec = None
+        self.monitor = None
+
+    def listbox_test(self):
+        selec = tk.StringVar()
+        listbox = tk.Listbox(self.windows)
+
+        ciudades = ["Bogota", "Cali", "Medellin", "Santander", "San Andres", "Rioacha", "Choco", "Buenaventura"]
+        
+        label = tk.Label(text="Lista de Ciudades de Colombia")
+        label.pack(padx=2, pady=2)
+
+        for item in ciudades:
+            listbox.insert(tk.END, item)
+        listbox.pack()
+    """
         self.ciudad_1 = None
         self.ciudad_2 = None
         self.ciudad_3 = None
@@ -66,13 +82,14 @@ class Window(object):
         santander.pack(padx=2, pady=2)
         san_andres = tk.Checkbutton(self.windows, text="San Andres", onvalue=1, offvalue=0, variable=self.ciudad_5, command=self.select_5)
         san_andres.pack(padx=2, pady=2)
-    
+    """
+
     def run_mainloop(self):
         self.windows.mainloop()
 
 def main():
     windows = Window()
-    windows.check_button()
+    windows.listbox_test()
 
     windows.run_mainloop()
 
