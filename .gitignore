@@ -6,4 +6,6 @@ bin/
 # Ignora la carpeta de venv Python
 venv/
 
+test/
+
 __pycache__
