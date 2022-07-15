@@ -7,5 +7,6 @@ bin/
 venv/
 
 test/
+tema_12_django/
 
 __pycache__
