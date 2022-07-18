@@ -1,13 +1,13 @@
 from django.shortcuts import render
-from .models import Book, Author
+from .models import Director, Pelicula
 
 # Create your views here.
 def home(request):
-    books = Book.objects.all()
-    authors = Author.objects.all()
+    directors = Director.objects.all()
+    peliculas = Pelicula.objects.all()
     
     context = {
-        'books': books,
-        'authors': authors,
+        'directors': directors,
+        'peliculas': peliculas,
     }
     return render(request, 'cineUser/index.html', context)
