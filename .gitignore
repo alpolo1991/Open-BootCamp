@@ -1,7 +1,8 @@
 test/
 tema_12_django/
 bin/
-/Ejercicio-Tema1/Ejercicio-Tema1.iml
+
+#.idea
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,java,python,django
@@ -319,11 +320,6 @@ replay_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
-.idea
-.idea/*
-.idea/**
-.idea/uiDesigner.xml
 
 # AWS User-specific
 .idea/**/aws.xml
