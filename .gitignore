@@ -319,7 +319,10 @@ replay_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+
+.idea
 .idea/*
+.idea/**
 .idea/uiDesigner.xml
 
 # AWS User-specific
