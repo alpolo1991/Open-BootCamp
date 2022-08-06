@@ -1,4 +1,4 @@
-package com.poo;
+package com.poo.clases;
 
 public class SmartDevice {
     /*

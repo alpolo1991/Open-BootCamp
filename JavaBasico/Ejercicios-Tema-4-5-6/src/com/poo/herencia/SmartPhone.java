@@ -1,6 +1,8 @@
-package com.poo;
+package com.poo.herencia;
 
-public class SmartPhone extends SmartDevice{
+import com.poo.clases.SmartDevice;
+
+public class SmartPhone extends SmartDevice {
 
     public String tipopantalla;
     public int bateria;

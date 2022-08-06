@@ -1,5 +1,5 @@
-import com.poo.SmartPhone;
-import com.poo.SmartWatch;
+import com.poo.herencia.SmartPhone;
+import com.poo.herencia.SmartWatch;
 
 public class Main {
     public static void main(String[] args) {

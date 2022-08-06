@@ -1,6 +1,8 @@
-package com.poo;
+package com.poo.herencia;
 
-public class SmartWatch extends SmartDevice{
+import com.poo.clases.SmartDevice;
+
+public class SmartWatch extends SmartDevice {
 
     protected String pulsera;
     protected String tactic;
