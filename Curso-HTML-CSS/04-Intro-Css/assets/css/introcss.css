@@ -1,0 +1,68 @@
+.main-container {
+    /* background-color: rgba(85, 167, 178, .8); Color de Fondo */
+    /* background-image: url('https://source.unsplash.com/300x300/?portrai'); */
+    /* border-radius: .5rem; */
+    /* padding: .3rem; */
+}
+
+.section-con-1 {
+    margin-bottom: 1rem;
+}
+
+.home {
+    background-color: rgba(85, 167, 178, .8);
+    border-radius: .6rem;
+    padding: .3rem;
+}
+
+.home-title {
+    color: #f4a261;
+}
+
+.home-p {
+    color: #985c2b;
+}
+
+.color-rgb {
+    color: rgb(225, 111, 124);
+}
+
+.color-rgba {
+    color: rgba(11, 73, 243, 0.3);
+}
+
+.perfil {
+    background-color: #9197ae;
+    border-radius: .6rem;
+    padding: .3rem;
+}
+
+.perfil-con {
+    width: 30%;
+    height: 50%;
+    background-color: rgb(84, 73, 73);
+}
+
+.perfil-con {
+    border-color: #9197ae;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: .5rem;
+    padding: 5px 6px;
+    margin: 2px 3px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:ital,wght@1,100&display=swap'); */
+
+.usuario-title {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: aquamarine;
+}
