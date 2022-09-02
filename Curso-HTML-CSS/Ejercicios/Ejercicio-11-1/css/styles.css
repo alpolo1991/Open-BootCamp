@@ -1,0 +1,28 @@
+.col-styles {
+    border: 1px solid rgb(240, 230, 230);
+    margin: .1rem;
+}
+
+.col-sm {
+    background-color: rgb(212, 177, 131);
+}
+
+.col-md {
+    background-color: blue;
+}
+
+.col-lg {
+    background-color: blueviolet;
+}
+
+.col-xl {
+    background-color: brown;
+}
+
+.col-xs {
+    background-color: rgb(183, 189, 201);
+}
+
+.col-xxl {
+    background-color: cornflowerblue;
+}
