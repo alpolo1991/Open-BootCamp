@@ -1,0 +1,273 @@
+@use "./components";
+
+// html, body, *
+// {font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 3.5rem;
+  border-bottom: 1px solid rgb(225, 220, 220);
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo a {
+    img {
+      max-width: 10rem;
+      padding: 0.2rem 0.4rem;
+    }
+  }
+
+  .menu {
+    .main-menu {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      font-size: 1rem;
+      list-style: none;
+      display: inline;
+      margin-left: 1rem;
+
+      a {
+        color: black;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .get-started {
+    padding: 0 0.4rem;
+  }
+}
+
+.main-body {
+  width: 100%;
+  max-width: 80%;
+  padding-top: 5rem;
+  margin: auto;
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+
+  .home-cta {
+    flex: 1;
+
+    .cta-text {
+      width: 30rem;
+      color: components.$color-main;
+      i {
+        font-size: 1rem;
+      }
+      .home-title {
+        font-weight: 400;
+        font-size: 4rem;
+        color: rgb(46, 43, 43);
+      }
+      .home-description {
+        color: rgb(46, 43, 43);
+        font-weight: 300;
+        font-size: 1.5rem;
+      }
+      .home-actions {
+        > input {
+          width: 60%;
+          height: 2rem;
+          border-radius: 0.6rem;
+          box-shadow: -10px 0 10px rgb(225, 220, 220);
+          border: 1px solid #98cbdb;
+
+          &:focus {
+            outline: none;
+            border-radius: 0.6rem;
+            box-shadow: -10px 0 10px rgb(195, 188, 188);
+          }
+          &:hover {
+            outline: unset;
+            border-radius: 0.6rem;
+            border: 1px solid #6498a8;
+          }
+        }
+      }
+    }
+  }
+
+  .home-img {
+    img {
+      width: 260px;
+    }
+  }
+}
+
+.sec-features {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+
+  .intro {
+    text-align: center;
+    margin-bottom: 4rem;
+    h3 {
+      font-weight: 600;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #696969;
+    }
+  }
+
+  .features {
+    display: flex;
+
+    .text {
+      .feature {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 15px;
+      }
+      .description {
+        .title {
+          font-size: 1.6rem;
+        }
+        .description-text {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+  .features-image {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.sec-benefits {
+  margin-bottom: 4rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+
+  .benefits-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .intro-title {
+      font-weight: 600;
+      font-size: 2.3rem;
+    }
+
+    .intro-text {
+      font-size: 1.5rem;
+      color: #696969;
+    }
+  }
+
+  .benefits-cards {
+
+  }
+}
+
+.sec-kpis {
+  margin-bottom: 4rem;
+
+  background-color: components.$color-main;
+  color: white;
+  padding: 1rem;
+
+  .kpi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .kpi-number {
+      font-weight: 600;
+      font-size: 3rem;
+    }
+
+    .kpi-desc {
+      font-size: .9rem;
+      color: #ffffffcd;
+    }
+  }
+}
+
+.sec-onboarding {
+  margin-bottom: 4rem;
+
+  .onboarding-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2rem;
+
+  }
+
+  .onboarding-text {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #7e7c7c;
+  }
+
+  .onboarding-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    .steps-separator {
+      flex: 1;
+      border-top: 2px dotted #eee;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: components.$color-footer;
+  padding: 3rem 5rem;
+  background-image: url("../../dist/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+
+
+  .sec-footer-cta {
+    width: 50%;
+
+    .cta-title {
+      font-size: 2.3rem;
+      font-weight: 600;
+    }
+
+    .cta-description {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec-onboarding {
+
+    .onboarding-steps {
+      flex-direction: column;
+    }
+  }
+
+  .footer {
+    background-image: none;
+    .sec-footer-cta {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

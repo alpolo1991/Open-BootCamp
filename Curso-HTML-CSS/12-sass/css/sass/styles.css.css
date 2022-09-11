@@ -1,0 +1,93 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.4%;
+  margin: 0.2%;
+  font-size: 2rem;
+  border-radius: 4%;
+  cursor: pointer;
+}
+.btn.btn-test:hover, .btn-test.btn-2:hover {
+  background-color: aquamarine;
+  color: bisque;
+  font-size: 2.1rem;
+}
+.btn.btn-3, .btn-3.btn-2 {
+  margin: 0.2%;
+  padding: 0.3%;
+  border-radius: 10%;
+}
+.btn.btn-3:hover, .btn-3.btn-2:hover {
+  color: rgb(113, 52, 52);
+  background-color: rgb(20, 17, 17);
+}
+
+.btn-2 {
+  margin: 0.2%;
+  padding: 0.3%;
+  border-radius: 15%;
+}
+.btn-2:hover {
+  color: black;
+  background-color: brown;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container-main {
+  margin: 1% auto;
+  width: 90%;
+  position: relative;
+}
+
+.header {
+  border: 1px solid black;
+}
+.header ul {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0.2%;
+  margin: 0.2%;
+  color: none;
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header ul li {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0.2%;
+  margin: 0.2%;
+  color: rgba(206, 155, 24, 0.1803921569);
+  background-color: rgba(171, 236, 8, 0.5764705882);
+  list-style: none;
+}
+
+.body {
+  margin-top: 0.2%;
+  border: 1px solid blue;
+}
+.body p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0.2%;
+  margin: 0.2%;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(12, 139, 20, 0.5);
+}
+
+.footer {
+  margin-top: 0.2%;
+  border: 1px solid green;
+}/*# sourceMappingURL=styles.css.css.map */

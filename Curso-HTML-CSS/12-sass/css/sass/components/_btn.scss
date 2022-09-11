@@ -1,0 +1,37 @@
+.btn {
+  border: none;
+  padding: .4%;
+  margin: .2%;
+  font-size: 2rem;
+  border-radius: 4%;
+  cursor: pointer;
+
+  &.btn-test {
+    &:hover {
+      background-color: aquamarine;
+      color: bisque;
+      font-size: 2.1rem;
+    }
+  }
+
+  &.btn-3 {
+    margin: .2%;
+    padding: .3%;
+    border-radius: 10%;
+    &:hover {
+      color: rgb(113, 52, 52);
+      background-color: rgb(20, 17, 17);
+    }
+  }
+}
+
+.btn-2 {
+  @extend .btn;
+  margin: .2%;
+  padding: .3%;
+  border-radius: 15%;
+  &:hover {
+    color: black;
+    background-color: brown;
+  }
+}
